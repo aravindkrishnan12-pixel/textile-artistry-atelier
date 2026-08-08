@@ -61,10 +61,13 @@ function ProductPage() {
   const isCorrente = product.slug === "corrente";
   const isBelvedere = product.slug === "belvedere";
   const isMonogramTowel = product.slug === "monogram-bath-towel";
+  const isMonogramRobe = product.slug === "monogram-bathrobe";
   const heroImage = isPigmento
     ? { url: pigmentoBoat.url, alt: "Pigmento beach towel held open on the deck of a sailboat above turquoise water" }
     : { url: product.image, alt: `${product.name} — ${product.caption}` };
-  const lifestyleOne = isMonogramTowel
+  const lifestyleOne = isMonogramRobe
+    ? { url: robePool.url, alt: "Maison Bain organic cotton robe worn beside a sunlit poolside terrace" }
+    : isMonogramTowel
     ? { url: monogramArch.url, alt: "Monogrammed Maison Bain towel wrapped at the waist beneath a terracotta arch" }
     : isBelvedere
     ? { url: belvedereArch.url, alt: "Belvedere beach towel wrapped at the waist beneath a terracotta arch" }
@@ -75,7 +78,9 @@ function ProductPage() {
     : isSoleAntico
     ? { url: soleAnticoJetty.url, alt: "Sole Antico beach towel wrapped around the shoulders on a wooden jetty above a calm bay" }
     : { url: lifestyleJetty.url, alt: "Beach towel draped over a teak deck chair beside a poolside terrace" };
-  const lifestyleTwo = isMonogramTowel
+  const lifestyleTwo = isMonogramRobe
+    ? { url: robeBath.url, alt: "Maison Bain robe with the embroidered house crest seen from behind in a marble bathroom" }
+    : isMonogramTowel
     ? { url: monogramDock.url, alt: "Monogrammed Maison Bain towel folded on a jetty beside a yellow and white swim ring" }
     : isBelvedere
     ? { url: belvedereRock.url, alt: "Belvedere beach towel draped over the shoulder against a sunlit limestone cliff" }
