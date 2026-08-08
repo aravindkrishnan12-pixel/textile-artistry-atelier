@@ -58,10 +58,13 @@ function ProductPage() {
   const isPigmento = product.slug === "pigmento";
   const isCorrente = product.slug === "corrente";
   const isBelvedere = product.slug === "belvedere";
+  const isMonogramTowel = product.slug === "monogram-bath-towel";
   const heroImage = isPigmento
     ? { url: pigmentoBoat.url, alt: "Pigmento beach towel held open on the deck of a sailboat above turquoise water" }
     : { url: product.image, alt: `${product.name} — ${product.caption}` };
-  const lifestyleOne = isBelvedere
+  const lifestyleOne = isMonogramTowel
+    ? { url: monogramArch.url, alt: "Monogrammed Maison Bain towel wrapped at the waist beneath a terracotta arch" }
+    : isBelvedere
     ? { url: belvedereArch.url, alt: "Belvedere beach towel wrapped at the waist beneath a terracotta arch" }
     : isCorrente
     ? { url: correnteShore.url, alt: "Corrente beach towel wrapped over the shoulders at the shoreline" }
