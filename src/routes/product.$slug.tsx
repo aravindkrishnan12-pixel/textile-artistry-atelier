@@ -73,8 +73,9 @@ function ProductPage() {
     : isSoleAntico
     ? { url: soleAnticoJetty.url, alt: "Sole Antico beach towel wrapped around the shoulders on a wooden jetty above a calm bay" }
     : { url: lifestyleJetty.url, alt: "Beach towel draped over a teak deck chair beside a poolside terrace" };
-  const lifestyleTwo = isBelvedere
-    ? { url: belvedereRock.url, alt: "Belvedere beach towel draped over the shoulder against a sunlit limestone cliff" }
+  const lifestyleTwo = isMonogramTowel
+    ? { url: monogramDock.url, alt: "Monogrammed Maison Bain towel folded on a jetty beside a yellow and white swim ring" }
+    : isBelvedere
     : isCorrente
     ? { url: correnteSky.url, alt: "Corrente beach towel held open against a clear blue sky" }
     : isPigmento
