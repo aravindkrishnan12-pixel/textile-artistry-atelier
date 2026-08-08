@@ -7,7 +7,7 @@ import towel6 from "@/assets/towel-6.png.asset.json";
 
 import towel8 from "@/assets/towel-8.png.asset.json";
 
-import monogramTowel from "@/assets/monogram-towel-product.jpeg.asset.json";
+import monogramTowel from "@/assets/monogram-towel.png.asset.json";
 import robeProduct from "@/assets/robe-product.png.asset.json";
 
 export type Family = "artistic" | "monogram";
