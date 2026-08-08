@@ -11,6 +11,8 @@ import correnteShore from "@/assets/corrente-shore.jpeg.asset.json";
 import correnteSky from "@/assets/corrente-sky.jpeg.asset.json";
 import belvedereArch from "@/assets/belvedere-arch.jpeg.asset.json";
 import belvedereRock from "@/assets/belvedere-rock.jpeg.asset.json";
+import monogramArch from "@/assets/monogram-arch.jpeg.asset.json";
+import monogramDock from "@/assets/monogram-dock.jpeg.asset.json";
 import { TraceJourney } from "@/components/TraceJourney";
 import { Display, Eyebrow, PillButton, PillLink, Shell } from "@/components/ui-kit";
 import { useCart } from "@/lib/cart";
@@ -56,10 +58,13 @@ function ProductPage() {
   const isPigmento = product.slug === "pigmento";
   const isCorrente = product.slug === "corrente";
   const isBelvedere = product.slug === "belvedere";
+  const isMonogramTowel = product.slug === "monogram-bath-towel";
   const heroImage = isPigmento
     ? { url: pigmentoBoat.url, alt: "Pigmento beach towel held open on the deck of a sailboat above turquoise water" }
     : { url: product.image, alt: `${product.name} — ${product.caption}` };
-  const lifestyleOne = isBelvedere
+  const lifestyleOne = isMonogramTowel
+    ? { url: monogramArch.url, alt: "Monogrammed Maison Bain towel wrapped at the waist beneath a terracotta arch" }
+    : isBelvedere
     ? { url: belvedereArch.url, alt: "Belvedere beach towel wrapped at the waist beneath a terracotta arch" }
     : isCorrente
     ? { url: correnteShore.url, alt: "Corrente beach towel wrapped over the shoulders at the shoreline" }
@@ -68,7 +73,9 @@ function ProductPage() {
     : isSoleAntico
     ? { url: soleAnticoJetty.url, alt: "Sole Antico beach towel wrapped around the shoulders on a wooden jetty above a calm bay" }
     : { url: lifestyleJetty.url, alt: "Beach towel draped over a teak deck chair beside a poolside terrace" };
-  const lifestyleTwo = isBelvedere
+  const lifestyleTwo = isMonogramTowel
+    ? { url: monogramDock.url, alt: "Monogrammed Maison Bain towel folded on a jetty beside a yellow and white swim ring" }
+    : isBelvedere
     ? { url: belvedereRock.url, alt: "Belvedere beach towel draped over the shoulder against a sunlit limestone cliff" }
     : isCorrente
     ? { url: correnteSky.url, alt: "Corrente beach towel held open against a clear blue sky" }

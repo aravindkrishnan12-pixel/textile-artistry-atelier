@@ -7,6 +7,7 @@ import towel6 from "@/assets/towel-6.png.asset.json";
 
 import towel8 from "@/assets/towel-8.png.asset.json";
 import monogramBlank from "@/assets/monogram-blank.jpg";
+import monogramTowel from "@/assets/monogram-towel.png.asset.json";
 
 export type Family = "artistic" | "monogram";
 export type Use = "bath" | "beach" | "bathrobe";
@@ -117,7 +118,7 @@ export const products: Product[] = [
     family: "monogram",
     uses: ["bath"],
     price: 42,
-    image: monogramBlank,
+    image: monogramTowel.url,
     caption: "Undyed organic cotton",
     description:
       "An undyed organic cotton towel with hand-knotted fringe, finished with initials of your choosing.",
