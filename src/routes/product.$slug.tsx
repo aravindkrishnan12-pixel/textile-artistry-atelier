@@ -55,17 +55,22 @@ function ProductPage() {
   const isSoleAntico = product.slug === "sole-antico";
   const isPigmento = product.slug === "pigmento";
   const isCorrente = product.slug === "corrente";
+  const isBelvedere = product.slug === "belvedere";
   const heroImage = isPigmento
     ? { url: pigmentoBoat.url, alt: "Pigmento beach towel held open on the deck of a sailboat above turquoise water" }
     : { url: product.image, alt: `${product.name} — ${product.caption}` };
-  const lifestyleOne = isCorrente
+  const lifestyleOne = isBelvedere
+    ? { url: belvedereArch.url, alt: "Belvedere beach towel wrapped at the waist beneath a terracotta arch" }
+    : isCorrente
     ? { url: correnteShore.url, alt: "Corrente beach towel wrapped over the shoulders at the shoreline" }
     : isPigmento
     ? { url: pigmentoShore.url, alt: "Pigmento beach towel wrapped around the shoulders at the water's edge" }
     : isSoleAntico
     ? { url: soleAnticoJetty.url, alt: "Sole Antico beach towel wrapped around the shoulders on a wooden jetty above a calm bay" }
     : { url: lifestyleJetty.url, alt: "Beach towel draped over a teak deck chair beside a poolside terrace" };
-  const lifestyleTwo = isCorrente
+  const lifestyleTwo = isBelvedere
+    ? { url: belvedereRock.url, alt: "Belvedere beach towel draped over the shoulder against a sunlit limestone cliff" }
+    : isCorrente
     ? { url: correnteSky.url, alt: "Corrente beach towel held open against a clear blue sky" }
     : isPigmento
     ? { url: product.image, alt: `${product.name} — ${product.caption}` }
