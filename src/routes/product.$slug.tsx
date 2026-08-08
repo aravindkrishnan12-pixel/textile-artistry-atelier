@@ -76,6 +76,7 @@ function ProductPage() {
   const lifestyleTwo = isMonogramTowel
     ? { url: monogramDock.url, alt: "Monogrammed Maison Bain towel folded on a jetty beside a yellow and white swim ring" }
     : isBelvedere
+    ? { url: belvedereRock.url, alt: "Belvedere beach towel draped over the shoulder against a sunlit limestone cliff" }
     : isCorrente
     ? { url: correnteSky.url, alt: "Corrente beach towel held open against a clear blue sky" }
     : isPigmento
