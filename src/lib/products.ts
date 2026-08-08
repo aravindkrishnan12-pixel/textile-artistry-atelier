@@ -4,7 +4,7 @@ import towel2 from "@/assets/towel-2.png.asset.json";
 import towel4 from "@/assets/pigmento-product.png.asset.json";
 import towel5 from "@/assets/towel-5.png.asset.json";
 import towel6 from "@/assets/towel-6.png.asset.json";
-import towel7 from "@/assets/towel-7.png.asset.json";
+
 import towel8 from "@/assets/towel-8.png.asset.json";
 import monogramBlank from "@/assets/monogram-blank.jpg";
 
@@ -95,20 +95,6 @@ export const products: Product[] = [
       "Ribbons of indigo, teal and sand moving in long waves across the length of the cloth.",
     story:
       "Corrente reduces water to its motion alone. The banded artwork was drawn to be read from any direction, folded or unfolded.",
-    sizes: ["90 × 180 cm"],
-  },
-  {
-    slug: "fiorita",
-    name: "Fiorita",
-    family: "artistic",
-    uses: ["beach", "bath"],
-    price: 56,
-    image: towel7.url,
-    caption: "Painted bloom",
-    description:
-      "Impasto flowers in coral, rose and deep petrol blue — the brightest piece in the collection.",
-    story:
-      "Fiorita is painted rather than designed: layered oil strokes photographed at scale so the texture of the original survives into the cloth.",
     sizes: ["90 × 180 cm"],
   },
   {
