@@ -7,6 +7,8 @@ import soleAnticoJetty from "@/assets/lifestyle-jetty-boat.jpeg.asset.json";
 import soleAnticoCliff from "@/assets/lifestyle-cliff.jpeg.asset.json";
 import pigmentoBoat from "@/assets/pigmento-boat.jpeg.asset.json";
 import pigmentoShore from "@/assets/pigmento-shore.jpeg.asset.json";
+import correnteShore from "@/assets/corrente-shore.jpeg.asset.json";
+import correnteSky from "@/assets/corrente-sky.jpeg.asset.json";
 import { TraceJourney } from "@/components/TraceJourney";
 import { Display, Eyebrow, PillButton, PillLink, Shell } from "@/components/ui-kit";
 import { useCart } from "@/lib/cart";
