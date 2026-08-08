@@ -6,7 +6,7 @@ import towel5 from "@/assets/towel-5.png.asset.json";
 import towel6 from "@/assets/towel-6.png.asset.json";
 
 import towel8 from "@/assets/towel-8.png.asset.json";
-import monogramBlank from "@/assets/monogram-blank.jpg";
+
 import monogramTowel from "@/assets/monogram-towel.png.asset.json";
 import robeProduct from "@/assets/robe-product.png.asset.json";
 
