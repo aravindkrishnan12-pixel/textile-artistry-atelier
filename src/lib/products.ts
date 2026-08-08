@@ -6,8 +6,9 @@ import towel5 from "@/assets/towel-5.png.asset.json";
 import towel6 from "@/assets/towel-6.png.asset.json";
 
 import towel8 from "@/assets/towel-8.png.asset.json";
-import monogramBlank from "@/assets/monogram-blank.jpg";
+
 import monogramTowel from "@/assets/monogram-towel.png.asset.json";
+import robeProduct from "@/assets/robe-product.png.asset.json";
 
 export type Family = "artistic" | "monogram";
 export type Use = "bath" | "beach" | "bathrobe";
@@ -133,7 +134,7 @@ export const products: Product[] = [
     family: "monogram",
     uses: ["bathrobe"],
     price: 140,
-    image: monogramBlank,
+    image: robeProduct.url,
     caption: "Organic cotton robe",
     description:
       "A full-length organic cotton robe, cut generously, with initials placed at the chest.",
