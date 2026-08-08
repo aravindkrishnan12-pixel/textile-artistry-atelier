@@ -11,6 +11,8 @@ import correnteShore from "@/assets/corrente-shore.jpeg.asset.json";
 import correnteSky from "@/assets/corrente-sky.jpeg.asset.json";
 import belvedereArch from "@/assets/belvedere-arch.jpeg.asset.json";
 import belvedereRock from "@/assets/belvedere-rock.jpeg.asset.json";
+import monogramArch from "@/assets/monogram-arch.jpeg.asset.json";
+import monogramDock from "@/assets/monogram-dock.jpeg.asset.json";
 import { TraceJourney } from "@/components/TraceJourney";
 import { Display, Eyebrow, PillButton, PillLink, Shell } from "@/components/ui-kit";
 import { useCart } from "@/lib/cart";
