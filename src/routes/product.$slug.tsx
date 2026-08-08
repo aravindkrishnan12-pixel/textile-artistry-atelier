@@ -9,6 +9,8 @@ import pigmentoBoat from "@/assets/pigmento-boat.jpeg.asset.json";
 import pigmentoShore from "@/assets/pigmento-shore.jpeg.asset.json";
 import correnteShore from "@/assets/corrente-shore.jpeg.asset.json";
 import correnteSky from "@/assets/corrente-sky.jpeg.asset.json";
+import belvedereArch from "@/assets/belvedere-arch.jpeg.asset.json";
+import belvedereRock from "@/assets/belvedere-rock.jpeg.asset.json";
 import { TraceJourney } from "@/components/TraceJourney";
 import { Display, Eyebrow, PillButton, PillLink, Shell } from "@/components/ui-kit";
 import { useCart } from "@/lib/cart";
