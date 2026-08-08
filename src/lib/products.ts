@@ -1,6 +1,6 @@
 import towel1 from "@/assets/towel-1.png.asset.json";
 import towel2 from "@/assets/towel-2.png.asset.json";
-import towel3 from "@/assets/towel-3.png.asset.json";
+
 import towel4 from "@/assets/pigmento-product.png.asset.json";
 import towel5 from "@/assets/towel-5.png.asset.json";
 import towel6 from "@/assets/towel-6.png.asset.json";
@@ -53,20 +53,6 @@ export const products: Product[] = [
       "A painted terrace above the sea, lemons overhead and whitewashed houses stepping down to the water.",
     story:
       "Painted as a single view held from a shaded terrace at midday, Terrazza carries the deep cobalt of the Mediterranean against clay-washed stone.",
-    sizes: ["90 × 180 cm"],
-  },
-  {
-    slug: "risacca",
-    name: "Risacca",
-    family: "artistic",
-    uses: ["beach", "bath"],
-    price: 58,
-    image: towel3.url,
-    caption: "Surf and sand",
-    description:
-      "Foam breaking over pale sand, seen from above, closed by a quiet band of navy stripes.",
-    story:
-      "Risacca is the pull of the water as it retreats. The artwork keeps the exact tonal range of open sea — teal, ink, and the near-white of moving foam.",
     sizes: ["90 × 180 cm"],
   },
   {
